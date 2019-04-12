@@ -1,21 +1,26 @@
 {
   "name": "finsoft-test",
   "version": "0.1.0",
+  "homepage": "https://github.com/pi0neer/finsoft-test",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "core-js": "^2.6.5",
     "vue": "^2.6.6",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.5.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
+    "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.5.21"
   },
   "postcss": {
