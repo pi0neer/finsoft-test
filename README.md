@@ -53,11 +53,6 @@ Breakpoint можно выбрать самостоятельно.
 
 Документация по WebSocket: https://docs.coincap.io/
 
-# Демо
-Приложение размещено на [Github Pages](https://pages.github.com/) с помощью [vue-gh-pages](https://github.com/KieferSivitz/vue-gh-pages)
-
-[Ссылка на демо](https://pi0neer.github.io/finsoft-test/)
-
 ## Использованные библиотеки/фреймворки.
 
  - [Vuetify](https://vuetifyjs.com) - Хороший material design фреймворк, большой набор UI-компонентов, удобная grid-система, много вспомогательных классов.
